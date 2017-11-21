@@ -1,0 +1,15 @@
+# Compiled source #
+###################
+*.class
+
+# Packages #
+############
+*.jar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
