@@ -3,10 +3,14 @@ package Commands.Implements;
 import Commands.Command;
 import Commands.Receiver;
 import Models.Network;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ShowUserList implements Command {
     private final Receiver receiver;
 
+    @Autowired
     public ShowUserList(Receiver receiver) {
         this.receiver = receiver;
     }

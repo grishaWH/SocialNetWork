@@ -1,5 +1,8 @@
 package Commands;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class Invoker {
     private Command command;
 

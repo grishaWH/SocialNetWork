@@ -1,8 +1,11 @@
 package Models;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class Network {
     private User currentUser;
     private List<User> userList = new ArrayList<User>();

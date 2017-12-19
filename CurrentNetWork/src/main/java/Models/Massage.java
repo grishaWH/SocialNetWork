@@ -1,5 +1,7 @@
 package Models;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Massage {
     private User senderUser;
     private User receiverUser;
